@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "basic-component": "packages/basic-component",
+    "basic-component-e2e": "packages/basic-component-e2e",
+    "pkg": "packages/pkg",
+    "pkg-e2e": "packages/pkg-e2e"
+  }
 }

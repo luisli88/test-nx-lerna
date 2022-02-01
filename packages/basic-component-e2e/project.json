@@ -1,0 +1,28 @@
+{
+  "root": "packages/basic-component-e2e",
+  "sourceRoot": "packages/basic-component-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "packages/basic-component-e2e/cypress.json",
+        "devServerTarget": "basic-component:storybook"
+      },
+      "configurations": {
+        "ci": {
+          "devServerTarget": "basic-component:storybook:ci"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/basic-component-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["basic-component"]
+}

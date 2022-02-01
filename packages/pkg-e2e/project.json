@@ -1,0 +1,28 @@
+{
+  "root": "packages/pkg-e2e",
+  "sourceRoot": "packages/pkg-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "packages/pkg-e2e/cypress.json",
+        "devServerTarget": "pkg:storybook"
+      },
+      "configurations": {
+        "ci": {
+          "devServerTarget": "pkg:storybook:ci"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/pkg-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["pkg"]
+}

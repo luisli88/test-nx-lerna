@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@luisli88/basic-component": ["packages/basic-component/src/index.ts"],
+      "@luisli88/pkg-component": ["packages/pkg/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
