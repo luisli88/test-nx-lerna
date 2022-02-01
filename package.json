@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "build": "nx affected --target=build",
+    "test": "nx affected --target=test",
+    "e2e": "nx affected --target=e2e",
     "postversion": "nx run affected:build",
     "publish": "lerna publish"
   },

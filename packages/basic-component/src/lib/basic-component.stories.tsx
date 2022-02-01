@@ -11,4 +11,6 @@ const Template: Story<BasicComponentProps> = (args) => (
 );
 
 export const Primary = Template.bind({});
-Primary.args = {};
+Primary.args = {
+  title: 'Hello Component'
+};
