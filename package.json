@@ -10,7 +10,7 @@
     "publish": "lerna publish",
     "storybook": "nx --run-many --all --parallel=2 --target=storybook"
   },
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@babel/core": "7.12.13",
     "@babel/preset-typescript": "7.12.13",
