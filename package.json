@@ -67,10 +67,6 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "publishConfig": {
-    "access": "public",
-    "directory": "../dist/packages"
-  },
   "dependencies": {
     "@testing-library/react": "^12.1.2",
     "core-js": "^3.6.5",

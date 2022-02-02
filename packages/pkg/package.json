@@ -1,5 +1,9 @@
 {
   "name": "@luisli-public/pkg-component",
   "version": "0.0.2",
-  "gitHead": "1c260424f827fa702cb48fddd9609f170980e28c"
+  "gitHead": "1c260424f827fa702cb48fddd9609f170980e28c",
+  "publishConfig": {
+    "access": "public",
+    "directory": "../../dist/packages"
+  }
 }

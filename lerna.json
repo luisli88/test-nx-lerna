@@ -1,6 +1,6 @@
 {
   "packages": [
-    "dist/packages/*"
+    "packages/*"
   ],
   "version": "independent",
   "command": {
