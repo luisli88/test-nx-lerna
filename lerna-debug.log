@@ -1,0 +1,166 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '/Users/luiruiz/Developer/test/test-nx-lerna/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/luiruiz/Developer/test/test-nx-lerna
+3 info versioning independent
+4 verbose session e5a8ba8bb6e7273b
+5 verbose user-agent lerna/4.0.0/node@v14.18.3+x64 (darwin)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
+7 verbose rootPath /Users/luiruiz/Developer/test/test-nx-lerna
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly getCurrentBranch
+11 verbose currentBranch main
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "@luisli88/basic-component@0.0.2-6-g23202e0" => {"lastTagName":"@luisli88/basic-component@0.0.2","lastVersion":"0.0.2","refCount":"6","sha":"23202e0","isDirty":false}
+18 info Looking for changed packages since @luisli88/basic-component@0.0.2
+19 silly checking diff packages/basic-component
+20 silly found diff in packages/basic-component/CHANGELOG.md
+20 silly found diff in packages/basic-component/package.json
+20 silly found diff in packages/basic-component/src/lib/basic-component.spec.tsx
+20 silly found diff in packages/basic-component/src/lib/basic-component.stories.tsx
+20 silly found diff in packages/basic-component/src/lib/basic-component.tsx
+21 verbose filtered diff [
+21 verbose filtered diff   'packages/basic-component/CHANGELOG.md',
+21 verbose filtered diff   'packages/basic-component/package.json',
+21 verbose filtered diff   'packages/basic-component/src/lib/basic-component.spec.tsx',
+21 verbose filtered diff   'packages/basic-component/src/lib/basic-component.stories.tsx',
+21 verbose filtered diff   'packages/basic-component/src/lib/basic-component.tsx'
+21 verbose filtered diff ]
+22 silly checking diff packages/pkg
+23 silly found diff in packages/pkg/CHANGELOG.md
+23 silly found diff in packages/pkg/package.json
+23 silly found diff in packages/pkg/src/lib/pkg.spec.tsx
+23 silly found diff in packages/pkg/src/lib/pkg.tsx
+24 verbose filtered diff [
+24 verbose filtered diff   'packages/pkg/CHANGELOG.md',
+24 verbose filtered diff   'packages/pkg/package.json',
+24 verbose filtered diff   'packages/pkg/src/lib/pkg.spec.tsx',
+24 verbose filtered diff   'packages/pkg/src/lib/pkg.tsx'
+24 verbose filtered diff ]
+25 verbose updated @luisli-public/basic-component
+26 verbose updated @luisli-public/pkg-component
+27 verbose git-describe undefined => "@luisli88/basic-component@0.0.2-6-g23202e0"
+28 silly git-describe parsed => {"lastTagName":"@luisli88/basic-component@0.0.2","lastVersion":"0.0.2","refCount":"6","sha":"23202e0","isDirty":false}
+29 silly independent for @luisli-public/basic-component at /Users/luiruiz/Developer/test/test-nx-lerna/packages/basic-component
+30 verbose getChangelogConfig using preset "conventional-changelog-angular"
+31 silly npa Result {
+31 silly npa   type: 'tag',
+31 silly npa   registry: true,
+31 silly npa   where: undefined,
+31 silly npa   raw: 'conventional-changelog-angular',
+31 silly npa   name: 'conventional-changelog-angular',
+31 silly npa   escapedName: 'conventional-changelog-angular',
+31 silly npa   scope: undefined,
+31 silly npa   rawSpec: '',
+31 silly npa   saveSpec: null,
+31 silly npa   fetchSpec: 'latest',
+31 silly npa   gitRange: undefined,
+31 silly npa   gitCommittish: undefined,
+31 silly npa   hosted: undefined
+31 silly npa }
+32 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+33 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+34 verbose independent increment 0.0.2 by patch
+35 silly independent for @luisli-public/pkg-component at /Users/luiruiz/Developer/test/test-nx-lerna/packages/pkg
+36 verbose independent increment 0.0.2 by patch
+37 info auto-confirmed
+38 info execute Skipping releases
+39 silly lifecycle No script for "preversion" in "test-nx-lerna", continuing
+40 silly lifecycle No script for "preversion" in "@luisli-public/basic-component", continuing
+41 silly lifecycle No script for "preversion" in "@luisli-public/pkg-component", continuing
+42 silly lifecycle No script for "version" in "@luisli-public/basic-component", continuing
+43 silly independent for @luisli-public/basic-component at /Users/luiruiz/Developer/test/test-nx-lerna/packages/basic-component
+44 silly lifecycle No script for "version" in "@luisli-public/pkg-component", continuing
+45 silly independent for @luisli-public/pkg-component at /Users/luiruiz/Developer/test/test-nx-lerna/packages/pkg
+46 silly independent writing new entry: "## 0.0.3 (2022-02-02)\n\n**Note:** Version bump only for package @luisli-public/basic-component\n\n\n\n"
+47 silly independent writing new entry: "## 0.0.3 (2022-02-02)\n\n**Note:** Version bump only for package @luisli-public/pkg-component\n\n\n\n"
+48 verbose independent wrote /Users/luiruiz/Developer/test/test-nx-lerna/packages/basic-component/CHANGELOG.md
+49 verbose independent wrote /Users/luiruiz/Developer/test/test-nx-lerna/packages/pkg/CHANGELOG.md
+50 silly lifecycle No script for "version" in "test-nx-lerna", continuing
+51 silly gitAdd [
+51 silly gitAdd   'packages/basic-component/package.json',
+51 silly gitAdd   'packages/pkg/package.json',
+51 silly gitAdd   'packages/basic-component/CHANGELOG.md',
+51 silly gitAdd   'packages/pkg/CHANGELOG.md'
+51 silly gitAdd ]
+52 silly gitCommit chore(release): publish %v [skip travis]
+52 silly gitCommit
+52 silly gitCommit  - @luisli-public/basic-component@0.0.3
+52 silly gitCommit  - @luisli-public/pkg-component@0.0.3
+53 verbose git [
+53 verbose git   'commit',
+53 verbose git   '-F',
+53 verbose git   '/private/var/folders/g4/9l10b__n5wg7j56t5n1fx5qdwj6c41/T/6b7905ed-3b32-4bde-a22c-081e688ef537/lerna-commit.txt'
+53 verbose git ]
+54 silly gitTag @luisli-public/basic-component@0.0.3
+55 verbose git [
+55 verbose git   'tag',
+55 verbose git   '@luisli-public/basic-component@0.0.3',
+55 verbose git   '-m',
+55 verbose git   '@luisli-public/basic-component@0.0.3'
+55 verbose git ]
+56 silly gitTag @luisli-public/pkg-component@0.0.3
+57 verbose git [
+57 verbose git   'tag',
+57 verbose git   '@luisli-public/pkg-component@0.0.3',
+57 verbose git   '-m',
+57 verbose git   '@luisli-public/pkg-component@0.0.3'
+57 verbose git ]
+58 silly lifecycle No script for "postversion" in "@luisli-public/basic-component", continuing
+59 silly lifecycle No script for "postversion" in "@luisli-public/pkg-component", continuing
+60 silly lifecycle "postversion" starting in "test-nx-lerna"
+61 info lifecycle test-nx-lerna@0.0.0~postversion: test-nx-lerna@0.0.0
+62 verbose lifecycle test-nx-lerna@0.0.0~postversion: unsafe-perm in lifecycle true
+63 verbose lifecycle test-nx-lerna@0.0.0~postversion: PATH: /Users/luiruiz/Developer/test/test-nx-lerna/node_modules/npm-lifecycle/node-gyp-bin:/Users/luiruiz/Developer/test/test-nx-lerna/node_modules/.bin:/Users/luiruiz/Developer/test/test-nx-lerna/node_modules/.bin:/Users/luiruiz/Developer/test/node_modules/.bin:/Users/luiruiz/Developer/node_modules/.bin:/Users/luiruiz/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/luiruiz/.nvm/versions/node/v14.18.3/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/Users/luiruiz/Library/Python/3.8/bin:/Users/luiruiz/.nordic-doctor/bin:/Users/luiruiz/.nvm/versions/node/v14.18.3/bin:/Users/luiruiz/.nvm/versions/node/v14.18.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/luiruiz/Library/Python/3.8/bin:/Users/luiruiz/.nordic-doctor/bin:/Users/luiruiz/.sdkman/candidates/maven/current/bin:/Users/luiruiz/.sdkman/candidates/java/current/bin:/Users/luiruiz/.sdkman/candidates/grails/current/bin:/Users/luiruiz/.sdkman/candidates/gradle/current/bin:/Users/luiruiz/.nvm/versions/node/v14.18.3/bin
+64 verbose lifecycle test-nx-lerna@0.0.0~postversion: CWD: /Users/luiruiz/Developer/test/test-nx-lerna
+65 silly lifecycle test-nx-lerna@0.0.0~postversion: Args: [ '-c', 'nx affected --target=build' ]
+66 silly lifecycle test-nx-lerna@0.0.0~postversion: Returned: code: 0  signal: null
+67 silly lifecycle "postversion" finished in "test-nx-lerna"
+68 info git Pushing tags...
+69 silly gitPush origin main
+70 info publish Publishing packages to npm...
+71 info Verifying npm credentials
+72 verbose Retrieving npm user profile
+73 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1064ms
+74 silly npm profile get received {"tfa":{"pending":false,"mode":"auth-only"},"name":"luisli88","email":"luislicardo1307@gmail.com","email_verified":true,"created":"2018-01-16T20:05:36.471Z","updated":"2022-02-01T20:39:36.986Z","cidr_whitelist":null,"fullname":"Luis Ricardo Ruiz Rodríguez","homepage":"http://ideaselgatosinbotas.co","freenode":"","twitter":"luisliElCurioso","github":"luisli88"}
+75 silly get npm username received {"username":"luisli88","tfa":{"pending":false,"mode":"auth-only"},"name":"luisli88","email":"luislicardo1307@gmail.com","email_verified":true,"created":"2018-01-16T20:05:36.471Z","updated":"2022-02-01T20:39:36.986Z","cidr_whitelist":null,"fullname":"Luis Ricardo Ruiz Rodríguez","homepage":"http://ideaselgatosinbotas.co","freenode":"","twitter":"luisliElCurioso","github":"luisli88"}
+76 silly verifyNpmPackageAccess
+77 http fetch GET 200 https://registry.npmjs.org/-/org/luisli88/package?format=cli 246ms (cache updated)
+78 info Checking two-factor auth mode
+79 verbose Retrieving npm user profile
+80 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 205ms
+81 silly npm profile get received {"tfa":{"pending":false,"mode":"auth-only"},"name":"luisli88","email":"luislicardo1307@gmail.com","email_verified":true,"created":"2018-01-16T20:05:36.471Z","updated":"2022-02-01T20:39:36.986Z","cidr_whitelist":null,"fullname":"Luis Ricardo Ruiz Rodríguez","homepage":"http://ideaselgatosinbotas.co","freenode":"","twitter":"luisliElCurioso","github":"luisli88"}
+82 silly 2FA { pending: false, mode: 'auth-only' }
+83 silly getCurrentSHA
+84 verbose getCurrentSHA 5ca81c49b30753ab4d3a8cc2f13a60971c9e536e
+85 warn lifecycle Skipping root "prepublish" because it has already been called
+86 silly lifecycle No script for "prepare" in "test-nx-lerna", continuing
+87 silly lifecycle No script for "prepublishOnly" in "test-nx-lerna", continuing
+88 silly lifecycle No script for "prepack" in "test-nx-lerna", continuing
+89 verbose pack-directory dist/packages
+90 verbose pack-directory dist/packages
+91 silly lifecycle No script for "prepublish" in "@luisli-public/basic-component", continuing
+92 silly lifecycle No script for "prepublish" in "@luisli-public/pkg-component", continuing
+93 silly lifecycle No script for "prepare" in "@luisli-public/basic-component", continuing
+94 silly lifecycle No script for "prepare" in "@luisli-public/pkg-component", continuing
+95 silly lifecycle No script for "prepublishOnly" in "@luisli-public/basic-component", continuing
+96 silly lifecycle No script for "prepublishOnly" in "@luisli-public/pkg-component", continuing
+97 silly lifecycle No script for "prepack" in "@luisli-public/basic-component", continuing
+98 silly lifecycle No script for "prepack" in "@luisli-public/pkg-component", continuing
+99 silly lifecycle No script for "postpack" in "@luisli-public/basic-component", continuing
+100 verbose packed dist/packages
+101 silly lifecycle No script for "postpack" in "@luisli-public/pkg-component", continuing
+102 verbose packed dist/packages
+103 silly lifecycle No script for "postpack" in "test-nx-lerna", continuing
+104 verbose publish @luisli-public/basic-component
+105 verbose publish @luisli-public/pkg-component
+106 error

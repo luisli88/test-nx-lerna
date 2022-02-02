@@ -1,9 +1,9 @@
 {
   "name": "@luisli-public/basic-component",
   "version": "0.0.3",
-  "gitHead": "1c260424f827fa702cb48fddd9609f170980e28c",
+  "gitHead": "5ca81c49b30753ab4d3a8cc2f13a60971c9e536e",
   "publishConfig": {
     "access": "public",
-    "directory": "../../dist/packages"
+    "directory": "../../dist/packages/basic-component"
   }
 }
