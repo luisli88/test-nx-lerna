@@ -10,14 +10,24 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2017", "dom"],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@luisli88/basic-component": ["packages/basic-component/src/index.ts"],
-      "@luisli88/pkg-component": ["packages/pkg/src/index.ts"]
+      "@luisli-public/basic-component": [
+        "packages/basic-component/src/index.ts"
+      ],
+      "@luisli-public/pkg-component": [
+        "packages/pkg/src/index.ts"
+      ]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }

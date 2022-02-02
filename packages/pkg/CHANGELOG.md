@@ -3,25 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.0.1](https://github.com/luisli88/test-nx-lerna/compare/@luisli88/pkg-component@0.0.2...@luisli88/pkg-component@1.0.1) (2022-02-01)
+## [1.0.2](https://github.com/luisli-public/test-nx-lerna/compare/@luisli-public/pkg-component@0.0.2...@luisli-public/pkg-component@1.0.2) (2022-02-01)
 
-**Note:** Version bump only for package @luisli88/pkg-component
-
-
-
-
-
-# [1.0.0](https://github.com/luisli88/test-nx-lerna/compare/@luisli88/pkg-component@0.0.2...@luisli88/pkg-component@1.0.0) (2022-02-01)
-
-**Note:** Version bump only for package @luisli88/pkg-component
+**Note:** Version bump only for package @luisli-public/pkg-component
 
 
 
 
 
-## [0.0.3](https://github.com/luisli88/test-nx-lerna/compare/@luisli88/pkg-component@0.0.2...@luisli88/pkg-component@0.0.3) (2022-02-01)
+## [1.0.1](https://github.com/luisli-public/test-nx-lerna/compare/@luisli-public/pkg-component@0.0.2...@luisli-public/pkg-component@1.0.1) (2022-02-01)
 
-**Note:** Version bump only for package @luisli88/pkg-component
+**Note:** Version bump only for package @luisli-public/pkg-component
+
+
+
+
+
+# [1.0.0](https://github.com/luisli-public/test-nx-lerna/compare/@luisli-public/pkg-component@0.0.2...@luisli-public/pkg-component@1.0.0) (2022-02-01)
+
+**Note:** Version bump only for package @luisli-public/pkg-component
+
+
+
+
+
+## [0.0.3](https://github.com/luisli-public/test-nx-lerna/compare/@luisli-public/pkg-component@0.0.2...@luisli-public/pkg-component@0.0.3) (2022-02-01)
+
+**Note:** Version bump only for package @luisli-public/pkg-component
 
 
 
@@ -29,4 +37,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.2 (2022-02-01)
 
-**Note:** Version bump only for package @luisli88/pkg-component
+**Note:** Version bump only for package @luisli-public/pkg-component
