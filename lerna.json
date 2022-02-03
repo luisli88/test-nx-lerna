@@ -10,7 +10,8 @@
         "*.md",
         "*.log",
         "test/**"
-      ]
+      ],
+      "message": "chore(release): publish"
     }
   },
   "npmClientArgs": [
