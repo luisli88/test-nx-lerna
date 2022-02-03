@@ -17,6 +17,7 @@
     "@babel/preset-typescript": "7.12.13",
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
+    "@digitalroute/cz-conventional-changelog-for-jira": "^7.1.0",
     "@nrwl/cli": "13.7.1",
     "@nrwl/cypress": "13.7.1",
     "@nrwl/eslint-plugin-nx": "13.7.1",
@@ -45,6 +46,7 @@
     "babel-jest": "27.2.3",
     "babel-loader": "8.1.0",
     "babel-plugin-styled-components": "1.10.7",
+    "commitizen": "^4.2.4",
     "cypress": "^9.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "~8.7.0",
@@ -87,7 +89,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira"
     }
   },
   "lint-staged": {
