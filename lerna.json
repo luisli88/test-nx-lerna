@@ -6,10 +6,14 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "yes": true
-    },
-    "version": {
-      "message": "chore(release): publish %v [skip travis]"
+      "ignoreChanges": [
+        "*.md",
+        "*.log",
+        "test/**"
+      ]
     }
-  }
+  },
+  "npmClientArgs": [
+    "--no-lockfile"
+  ]
 }

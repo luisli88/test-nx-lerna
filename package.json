@@ -90,28 +90,12 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira",
-      "jiraPrefix": "SFC"
+      "path": "./node_modules/@digitalroute/cz-conventional-changelog"
     }
   },
   "lint-staged": {
     "*.{js,ts,tsx,json}": [
       "npm run lint:ts:fix"
     ]
-  },
-  "commitlint": {
-    "rules": {
-      "references-empty": [
-        2,
-        "never"
-      ]
-    },
-    "parserPreset": {
-      "parserOpts": {
-        "issuePrefixes": [
-          "SFC-"
-        ]
-      }
-    }
   }
 }
