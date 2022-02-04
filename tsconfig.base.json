@@ -10,10 +10,7 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
@@ -21,13 +18,9 @@
       "@luisli-public/basic-component": [
         "packages/basic-component/src/index.ts"
       ],
-      "@luisli-public/pkg-component": [
-        "packages/pkg/src/index.ts"
-      ]
+      "@luisli-public/pkg-component": ["packages/pkg/src/index.ts"],
+      "@luisli-public/test-component": ["packages/test-component/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }

@@ -4,6 +4,8 @@
     "basic-component": "packages/basic-component",
     "basic-component-e2e": "packages/basic-component-e2e",
     "pkg": "packages/pkg",
-    "pkg-e2e": "packages/pkg-e2e"
+    "pkg-e2e": "packages/pkg-e2e",
+    "test-component": "packages/test-component",
+    "test-component-e2e": "packages/test-component-e2e"
   }
 }
